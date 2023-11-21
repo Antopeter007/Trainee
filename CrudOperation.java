@@ -201,7 +201,7 @@ insert();
 		}
 	}
 
-	public static void cr() {
+	public static void con() {
 		Connection con = null;
 		Statement stmt = null;
 		try {
