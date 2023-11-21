@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 
 public class employeeDetails {
-	@RequestMapping("/hello")
+	@RequestMapping("/details")
 	@ResponseBody
 	public List<employee> name() {
 		List<employee> details = new ArrayList<>();
